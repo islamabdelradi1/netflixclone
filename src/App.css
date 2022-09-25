@@ -1,0 +1,540 @@
+body{
+  background-color: black;
+  overflow-x: hidden;
+}
+.r-t img{
+  width: 150px;
+}
+
+.nav{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+align-items: center;
+z-index:99;
+position: relative;
+
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+.left a{
+text-decoration: none;
+background-color: red;
+padding: 10px;
+color: white;
+border-radius: 5px;
+font-weight: 400;
+}
+.chos{
+  border: 2px solid white !important;
+  color: white ;
+}
+
+.chos svg{
+  color: white;
+}
+.chos div {
+  color: white;
+
+}
+.chos div > div{
+  color: white;
+
+}
+.chos  div > div{
+  padding: 6px 0;
+  padding-right: 40px;
+
+}
+#root > div:nth-child(1) > div.bk > div.cen > div > form > div > label{
+  color: black;
+}
+.bk{
+  background-image: url("../public/img/EG-ar-20220801-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  height: 970px;
+  border-bottom: 10px solid rgb(53, 52, 52);
+  position: relative;
+
+}
+.bk::after {
+  content: " ";
+  color: white;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.486);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+}
+.cen{
+  position: absolute;
+  color: white;
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 30%;
+}
+.cen h1{
+font-size: 70px;
+}
+.inp{
+justify-content: center;
+}
+.form-control{
+  width: 550px;
+  padding: 15px ;
+  position: relative;
+}
+.chosfooter{
+  width: 550px;
+  padding: 15px ;
+  position: relative;
+}
+
+.text-valed{
+  text-align: right;
+}
+.btn-primary{
+  background-color: red;
+  border: none;
+  padding: 11px;
+  position: absolute;
+  transform: translate(-211%, -0%);
+  padding: 17px;
+}
+.btn-primary:hover{
+  background-color: rgb(155, 5, 5);
+
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+  border: none;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus{
+  background-color: brown;
+
+}
+.bgSlidtwoab{
+  background-color: black;
+  border-bottom: 10px solid rgb(53, 52, 52);
+  padding: 40px 0;
+}
+
+.Slidtwoab{
+  display: flex;
+  justify-content: center;
+}
+.Slidtwoklam{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Slidtwoklam h1{
+font-size: 50px;
+
+
+}
+.Slidtwoklam h5{
+  padding: 30px 0;
+  font-size: 25px;
+  }
+  .Slidtwoimg img{
+    position: relative;
+    z-index: 99;
+    width: 450px;
+
+  }
+  .Slidtwoimg .vid video{
+    z-index: 1;
+    position: absolute;
+    width: 328px;
+    transform: translate(-18%, -146%);
+    }
+    .Slidtwoab2{
+      display: flex;
+      justify-content: center;
+
+    }
+    .vid2{
+      background-color: black;
+      border: 2px solid rgb(53, 52, 52);
+      align-items: center;
+      justify-content: space-evenly;
+      width: 300px;
+      border-radius: 5px;
+      position: absolute;
+      transform: translate(-69px, -90px);
+      z-index: 99;
+    }
+    .im1{
+      width: 500px;
+      position: relative;
+    }
+    .vid2 .im2{
+      width: 50px;
+    }
+    .vid3 video{
+    z-index: 1;
+    position: absolute;
+    width: 291px;
+    transform: translate(-28%, -181%);
+    }
+    .Slidtwoklam4 h1{
+      width: 500px;
+      font-size: 50px;
+    }
+    .Slidtwoklam4{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+    }
+    .Slidtwoimg4  img{
+      width: 450px;
+    }
+    .accordion-button::after{
+      background-image: url("/public/img/plus.png");
+      margin-right: auto;
+      margin-left: 0;
+    }
+    .accordion-button:not(.collapsed)::after{
+      background-image: url("/public/img/plus.png");
+      transform: rotate(228deg);
+    }
+    .accordion {
+      width: 50%; 
+      margin: auto;
+    }
+    .accordion-button{
+font-size: 1.4rem;
+    }
+    .accordion-item{
+      background-color: rgb(53, 52, 52);
+      color: white;
+      border-bottom: 5px solid black;
+
+    }
+    .accordion-button{
+      background-color: rgb(53, 52, 52);
+      color: white;
+
+    }
+    .accordion-button:not(.collapsed){
+      color: white;
+      background-color: rgb(53, 52, 52);
+    }
+    .accordion-button:focus{
+      border-color: black;
+      box-shadow:none;
+    }
+    .form-floating>label{
+      right: 0;
+      left: auto;
+    }
+    .whats{
+      text-decoration: none;
+      color: rgb(82, 80, 80);
+      padding: 20px 0;
+    }
+    .whats:hover{
+      color: rgb(82, 80, 80);
+      text-decoration: underline;
+
+    }
+
+    .sav{
+      display: flex;
+      flex-direction: column;
+    }
+    .sav a{
+      text-decoration: none;
+      color: rgb(82, 80, 80);
+      padding: 5px 0;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .sav a:hover{
+      text-decoration: underline;
+    }
+    #root > div > div.bgSlidtwoab > div > div > div:nth-child(6) > div > div > div{
+      padding: 6px  0;
+      padding-right: 32px;
+
+    }
+
+    .chosfooter{
+      border: 1px solid rgb(68, 67, 67) !important;
+      color: white ;
+      border-radius: 5px;
+    }
+    
+    .chosfooter svg{
+      color: white;
+    }
+    .chosfooter div {
+      color: white;
+    }
+    .chosfooter1{
+      border: 1px solid rgb(68, 67, 67) !important;
+      color: white ;
+      border-radius: 5px;
+    }
+    .chosfooter1 svg{
+      color: white;
+    }
+    .chosfooter1 div {
+      color: white;
+    }
+    .log{
+      width: 500px;
+      background-color: rgba(0, 0, 0, 0.473);
+      padding: 30px;
+      position: relative;
+      z-index: 99;
+      margin: auto;
+
+    }
+    .log h3{
+      padding: 10px 0;
+      font-size: 25px;
+      font-weight: 400;
+    }
+    .form-control1{
+      width: 100%;
+      margin: 10px 0;
+    }
+    .formlog {
+      width: 80%; 
+      display: flex;
+      flex-direction: column;
+      margin: auto;}
+    .form-check-label{
+      color: white;
+    }
+    .btn-primary1{
+      background-color: brown;
+      color: white;
+      width: 100%;
+      padding: 10px 0;
+    }
+    .btn-primary1:hover{
+      color: white;
+    }
+    .text1{
+      color: rgb(104, 103, 103);
+      padding: 10px 0;
+    }
+
+    @media only screen and (max-width: 721px) {
+      .cen h1 {
+        font-size: 40px;
+        }
+        .btn-primary{
+          transform: translate(-167%, -1%);
+
+        }
+    }
+    @media only screen and (max-width: 546px){
+      .btn-primary{
+        transform: translate(-157%, -1%);
+
+      }
+    }
+    @media only screen and (max-width: 529px){
+      .btn-primary{
+        transform: translate(-144%, -1%);
+
+      }
+    }
+    @media only screen and (max-width: 767px){
+      .Slidtwoklam h1{
+        text-align: center;
+        font-size: 30px;
+      }
+      .Slidtwoklam h5{
+        text-align: center;
+        font-size: 20px;
+      }
+    }
+    @media only screen and (max-width: 991px){
+      .accordion-button {
+        font-size: 1rem;
+    }
+    }
+    @media only screen and (max-width: 721px){
+      .chosfooter{
+        width: 450px;
+      }
+    }
+
+
+.imglogo{
+  width: 150px;
+}
+.lefnav{
+  display: flex;
+  align-items: center;
+}
+.lestnav{
+  display: flex;
+}
+.lestnav a{
+  text-decoration: none;
+  color: black;
+}
+.navbar-brand{
+  margin-left: 1rem;
+}
+.caima{
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.caima p{
+  margin: 0;
+}
+.caima button{
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 7px;
+  margin: 0 20px;
+}
+.mrab2{
+  width: 40px;
+  background-color: brown;
+  height: 40px;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+}
+.navbar{
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  z-index: 99;
+}
+.bg-video video{
+  width: 100%;
+  border: 5px solid black;
+}
+.bag{
+  position: absolute;
+  bottom: 50%;
+  color: white;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.bag button{
+  border: none;
+  margin: 0 20px;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+.bag svg{
+  margin-right: 10px;
+}
+.btn2{
+  background-color: rgba(83, 83, 83, 0.288);
+  color: white;
+}
+.btn2:hover{
+  background-color: rgb(49, 49, 49);
+}
+.active{
+  transition: all 3s;
+  background-color: black;
+}
+.voicbtn button{
+  border-radius: 50%;
+  display: flex;
+  font-size: 25px;
+  padding: 10px ;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.voicbtn button svg{
+  margin-right: 0;
+}
+.soraapi{
+  width: 200px ;
+  height: 200px;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 636px !important;
+  left: 593px !important;
+  width: 100%;
+}
+.swiper{
+  padding: 30px !important;
+}
+.imgslid{
+  width: 400px !important;
+
+}
+.imgslid img{
+  width: 400px ;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.imgslid img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 300px 200px black;
+
+}
+.img-Trending img{
+height: 200px;
+cursor: pointer;
+
+}
+
+
+.details{
+position: relative;
+top: 50%;
+bottom: 50%;
+background-color: black;
+display: flex;
+height:30rem;
+z-index: 9999;
+align-items: center;
+width: 100%;
+opacity: 1;
+transition: all 1s ease-in-out;
+color: white;
+box-shadow: 0 0 95px 17px bisque;
+}
+
+.details img{
+  width: 300px;
+
+}
+.devimgview{
+  width: 100%;
+  height: 500px;
+}
+.devimgview img{
+  width: 100%;
+  height: 100%;
+
+}
+.btn-leftview button{
+    margin: 0 10px;
+}
+.btn-secondary a{
+text-decoration: none;
+color: black;
+}
