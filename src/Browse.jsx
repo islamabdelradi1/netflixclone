@@ -111,9 +111,7 @@ const aduio = useRef();
                         <Nav.Link href="#action5">قائمتي</Nav.Link>
 
                     </Nav>
-                    
-                    </Navbar.Collapse>
-                        <div className='lefnav'>
+                         <div className='lefnav'>
                             <FaSearch />
                             <div className='lestnav'>
                                 <Nav.Link href="#action6" className='text-white'>أطفال</Nav.Link>
@@ -125,6 +123,8 @@ const aduio = useRef();
                             </div>
 
                     </div>
+                    </Navbar.Collapse>
+
                 </Container>
             </Navbar>
             <video  autoPlay loop  muted >
